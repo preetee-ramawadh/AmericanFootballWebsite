@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>
-            Loading a Dropdown
-        </title>
-    </head>
-    <body>
-        <select id="teamList" name="teams"></select>
 
-        <script src="scripts/index.js"></script>
-    </body>
-    
+<head>
+    <title>
+        Loading a Dropdown
+    </title>
+</head>
+
+<body>
+    <form name="teamForm" id = "teamForm">
+        <select id="teamList" name="teams">
+        </select>
+
+        <p> <input type="button" id="teamSelectedBtn" value="Get Message for Selected Team" ></p>
+        <div id="messageDiv"></div>
+       
+    </form>
+
+    <script src="scripts/index.js"></script>
+</body>
+
 </html>
